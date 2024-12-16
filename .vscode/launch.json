@@ -15,7 +15,8 @@
         "-c",
         "config"
       ],
-      "preLaunchTask": "Compile English translations"
+      //"preLaunchTask": "Compile English translations",
+      "console": "internalConsole"
     },
     {
       "name": "Home Assistant (skip pip)",
@@ -29,7 +30,7 @@
         "config",
         "--skip-pip"
       ],
-      "preLaunchTask": "Compile English translations"
+      //"preLaunchTask": "Compile English translations"
     },
     {
       "name": "Home Assistant: Changed tests",
